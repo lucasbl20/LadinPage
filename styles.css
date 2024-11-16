@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid violet;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: purple;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 1px;
+}
+
+span{
+    color: purple;
+}
+
+p{
+    line-height: 18px;
+    max-width: 500px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form [type="submit"]{
+    height: 60px;
+    width: 180px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
